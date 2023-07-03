@@ -213,8 +213,8 @@ section{
     padding:0 30px
 }
 
-.au-input-xl{
-    min-width:935px
+.au-input-xl {
+    min-width: 500px
 }
 
 input.au-input.au-input-xl{

@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import java.util.List;
 
 @RepositoryRestResource
-@CrossOrigin("http://localhost:4200")
 public interface StateRepository extends JpaRepository<State, Integer> {
 
     // To retrieve states for a given country code
